@@ -4,4 +4,12 @@ public class Rica extends Pessoa {
     public void fazCompras(){
 
     }
+
+    public double getDinheiro() {
+        return dinheiro;
+    }
+
+    public void setDinheiro(double dinheiro) {
+        this.dinheiro = dinheiro;
+    }
 }
